@@ -1,6 +1,6 @@
 
 
-let randomNumber = Math.floor(Math.random() * 5)+1 ; 
+let randomNumber = Math.floor(Math.random() * 5)+1 ;
 ///Math.random มันจะ random แค่ 0-1 ถ้าอยากได้เลขถึงเท่าไหร่ก็เอาไปคูณเช่น 5
 /// Math.floor เพื่อทำให้เป็นจำนวนเต็ม
 let input = prompt ('Choose your Number 1-5');

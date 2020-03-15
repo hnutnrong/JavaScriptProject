@@ -5,6 +5,7 @@
 
 
 const student=name =>({name:name,age:10})
+
 let result=student("nutnarong")
 console.log(result);
 //มาจาก 

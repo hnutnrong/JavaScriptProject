@@ -17,8 +17,20 @@ console.log(programmer.skills[0]);
 programmer.fullname = 'Puimek Narak';
 programmer.age = '22';
 programmer.skills.push('php') //ถ้าเป็น Array ในการใส่ค่าใช้ .push 
-console.log(programmer.fullname);
-console.log(programmer.age);
-console.log(programmer.skills);
+// console.log(programmer.fullname);
+// console.log(programmer.age);
+// console.log(programmer.skills);
 
-console.log(programmer.showData());
+// console.log(programmer.showData());
+
+//for in 
+for (let prop in programmer){
+    console.log(prop);
+}
+        
+for (let prop in programmer){
+    console.log(programmer[prop]);
+}    
+
+
+

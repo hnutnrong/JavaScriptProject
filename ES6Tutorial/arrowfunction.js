@@ -4,10 +4,17 @@
 // console.log(result)
 
 
-const student=name =>({name:name,age:10})
+const myFunc = (name,age) => {
+    return `Hi  ${name}, Your age is ${age}`;
+}
+console.log(myFunc('nutnarong',21));
 
-let result=student("nutnarong")
-console.log(result);
+// const student=name =>({name:name,age:10})
+
+// let result=student("nutnarong")
+// console.log(result);
+
+
 //มาจาก 
 // function student(name){
 //     user={name:'',age:}

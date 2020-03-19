@@ -1,7 +1,8 @@
 //Default Parameter
 
 const addUser=(name,last,city="Ratchaburi")=>{
-    return name + last + "city = " + city
+    // return name + last + "city = " + city
+    return `Hellod ${name} ${last} city =  ${city}`;
 }
 console.log(addUser("nutnarong","yookittichai","Bangkok"));
 console.log(addUser("puimek","yookittichai")) ;
